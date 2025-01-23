@@ -32,12 +32,10 @@ $(NAME):  $(OBJ)
 
 clean:
 	@echo "$(RED)Cleaning up...$(NC)"
-	$(MAKE) clean -C libasm
 	rm -f $(NAME) $(OBJ)
 
 fclean: clean
 	@echo "Force cleaning up..."
-	$(MAKE) fclean -C libasm
 	rm -f $(NAME)
 
 re: fclean all 

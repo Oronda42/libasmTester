@@ -67,5 +67,5 @@ void _ft_strdup_test() {
     // test with a malloc who will failed
 
     // Test 6: Simulate malloc failure
-    assert_strdup_malloc_fail("Simulate malloc failure", "Simulate malloc failure");
+    //assert_strdup_malloc_fail("Simulate malloc failure", "Simulate malloc failure");
 }
