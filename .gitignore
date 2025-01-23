@@ -1,0 +1,11 @@
+.gdb_history
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+libasm/*.o
+testing/*.o
+testing/main
+peda-session-main.txt
+main
+libasm/libasm.a
+
