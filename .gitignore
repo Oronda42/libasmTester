@@ -8,4 +8,4 @@ testing/main
 peda-session-main.txt
 main
 libasm/libasm.a
-
+.test_file.txt
