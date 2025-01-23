@@ -20,11 +20,7 @@ SRC =   testing/utils.c  \
 OBJ = $(SRC:.c=.o)
 LIB = libasm/libasm.a
 
-all: $(LIB) $(NAME)
-
-$(LIB):
-	@echo "$(GREEN)Building libasm.a$(NC)"
-	$(MAKE) -C libasm
+all: $(NAME)
 
 %.o: %.c
 	@echo "$(GREEN)Assembling $< to $@$(NC)"
