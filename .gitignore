@@ -1,7 +1,5 @@
 .gdb_history
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
+.vscode/*
 libasm/*.o
 testing/*.o
 testing/main
